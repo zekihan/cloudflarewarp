@@ -1,6 +1,6 @@
 module github.com/zekihan/cloudflarewarp
 
-go 1.23.0
+go 1.24.0
 
 retract (
 	v1.2.0 // No longer supported - See https://github.com/traefik/traefik/issues/9225 for more info
