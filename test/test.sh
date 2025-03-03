@@ -17,8 +17,8 @@ if [ "${1}" = "stack" ]; then
   sleep 5s
 fi
 
-docker pull traefik/whoami:latest
-docker pull traefik:latest
+docker pull traefik/whoami:v1.10.4
+docker pull traefik:v3.3.3
 
 sleep 1s
 
