@@ -1,22 +1,6 @@
-# ⚠️ Project No Longer Maintained ⚠️
-
-🚨 **This repository is no longer maintained or supported.** 🚨
-
-*We have moved to using [Caddy](https://caddyserver.com/?utm_source=github.com/BetterCorp/cloudflarewarp) for our needs.*
-
-*Thank you for your interest and support!*
-
-*If you wish to fork this project, it includes built-in testing tools. You can update the Traefik and Go versions to continue development.*
-
-
 # Real IP from Cloudflare Proxy/Tunnel
 
-[![Code Coverage](https://codecov.io/gh/BetterCorp/cloudflarewarp/branch/master/graph/badge.svg?token=QFGZS5QJSG)](https://codecov.io/gh/BetterCorp/cloudflarewarp)
-[![Code Analysis](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/codeql-analysis.yml)
-[![Codacy Security Scan](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/codacy-analysis.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/BetterCorp/cloudflarewarp)](https://goreportcard.com/report/github.com/BetterCorp/cloudflarewarp)
-[![Build and Test Source](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/buildAndTest.yml/badge.svg)](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/buildAndTest.yml)
-[![Integration Test](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/prodTest.yml/badge.svg)](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/prodTest.yml)
+Forked From https://github.com/BetterCorp/cloudflarewarp
 
 If Traefik is behind a Cloudflare Proxy/Tunnel, it won't be able to get the real IP from the external client as well as other information.
 
@@ -48,7 +32,7 @@ If you do not define `trustip` and `disableDefault`, it doesn't seem to load the
 experimental:
   plugins:
     cloudflarewarp:
-      moduleName: github.com/BetterCorp/cloudflarewarp
+      moduleName: github.com/zekihan/cloudflarewarp
       version: v1.4.0
 ```
 
@@ -82,7 +66,7 @@ http:
 
 # Testing
 
-[https://github.com/BetterCorp/cloudflarewarp/tree/master/test](https://github.com/BetterCorp/cloudflarewarp/tree/master/test)
+[https://github.com/zekihan/cloudflarewarp/tree/master/test](https://github.com/zekihan/cloudflarewarp/tree/master/test)
 
 We have written the following tests in this repo:
 
