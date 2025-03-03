@@ -63,7 +63,7 @@ jobs:
       - name: Run tests with Yaegi
         run: ${{ github.workspace }}/go/bin/yaegi test .
 
-      - uses: codecov/codecov-action@v2
+      - uses: codecov/codecov-action@v5
 
       - name: Test With Traefik
         run: cd test; bash test.sh
